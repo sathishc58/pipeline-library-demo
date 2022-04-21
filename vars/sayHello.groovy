@@ -2,6 +2,8 @@
 
 def call(String name = 'human') {
   echo "Hello, ${name}."
+  yarn install
+  yarn build
 }
 
 def buildyarn() {
